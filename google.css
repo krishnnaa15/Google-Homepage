@@ -1,0 +1,192 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar .item{
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+}
+
+.navbar .item:hover{
+    text-decoration: underline;
+}
+
+.navbar .icon:hover{
+    height: 2rem;
+    width: 2rem;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+    margin-right: 25px;
+    background-color: #8AB4F8;
+    border: none;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+main .main-logo{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+main .main-logo .logo{
+    height: 92px;
+    width: 302px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search .google-search{
+    height: 38px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 19px;
+    border: 0.1px solid #E3E3E3;
+    background-color: white;
+}
+
+.search .google-search:hover{
+    box-shadow: 1px 1px #E3E3E3;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn2-1, .btn2-2{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    border: none;
+    background-color: white;
+}
+
+.btn2-1:hover{
+    border: 0.1px solid #E3E3E3;
+    box-shadow: 1px 1px #E3E3E3;
+}
+
+.btn2-2:hover{
+    border: 0.1px solid #E3E3E3;
+    box-shadow: 1px 1px #E3E3E3;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+span{
+    color: #8AB4F8;
+}
+
+span:hover{
+    text-decoration: underline;
+}
+.foot1{
+    height: 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #70757A;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 0.1px solid #70757A;
+}
+
+.india{
+    margin-left: 20px;
+}
+
+.foot2{
+    height: 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #70757A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about:hover{
+    text-decoration: underline;
+}
+
+.advertising:hover{
+    text-decoration: underline;
+}
+
+.buisness:hover{
+    text-decoration: underline;
+}
+
+.how-search-works:hover{
+    text-decoration: underline;
+}
+
+.privacy:hover{
+    text-decoration: underline;
+}
+
+.terms:hover{
+    text-decoration: underline;
+}
+
+.setting:hover{
+    text-decoration: underline;
+}
+
+.foot2 .foot2-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 19px;
+}
+
+.foot2 .foot2-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 19px;
+}
